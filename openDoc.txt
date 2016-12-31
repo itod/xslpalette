@@ -1,0 +1,9 @@
+tell application "BBEdit"
+	activate
+	make new text window
+	--paste
+	set contents of window 1 to "%@"
+	select first word of text of window 1
+	set source language of text window 1 to "XML"
+	set current glossary set to "XSLT Glossary.xsl"
+end tell

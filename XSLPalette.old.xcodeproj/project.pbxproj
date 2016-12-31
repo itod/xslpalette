@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.mm */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		D30EFE111323E58E0005BE76 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30EFE0F1323E58E0005BE76 /* MyDocument.xib */; };
+		D30EFE141323E5970005BE76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30EFE121323E5970005BE76 /* MainMenu.xib */; };
+		D32D3A0F0CDCDFFA00378D15 /* jaxp-api.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D36CD72D0CDA5F5D0096C0F0 /* jaxp-api.jar */; };
+		D32D3A100CDCDFFA00378D15 /* xercesImpl.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3C09F290B1940F80020577A /* xercesImpl.jar */; };
+		D32D3A110CDCDFFA00378D15 /* xml-apis.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3C09F2A0B1940F90020577A /* xml-apis.jar */; };
+		D33D59060A7DB893003F341B /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D59050A7DB893003F341B /* BorderView.m */; };
+		D33D598C0A7DBEE5003F341B /* PrettyPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D598B0A7DBEE5003F341B /* PrettyPrinter.m */; };
+		D33D59940A7DBF1E003F341B /* prettyxml.xsl in Resources */ = {isa = PBXBuildFile; fileRef = D33D59930A7DBF1E003F341B /* prettyxml.xsl */; };
+		D33D5AF20A7DCF10003F341B /* libexslt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D5AF10A7DCF10003F341B /* libexslt.dylib */; };
+		D33D5E200A7F1AE3003F341B /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E1F0A7F1AE3003F341B /* AGRegex.m */; };
+		D33D5E2A0A7F1AF0003F341B /* chartables.c in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E220A7F1AF0003F341B /* chartables.c */; };
+		D33D5E2B0A7F1AF0003F341B /* get.c in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E240A7F1AF0003F341B /* get.c */; };
+		D33D5E2C0A7F1AF0003F341B /* maketables.c in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E260A7F1AF0003F341B /* maketables.c */; };
+		D33D5E2D0A7F1AF0003F341B /* pcre.c in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E270A7F1AF0003F341B /* pcre.c */; };
+		D33D5E2E0A7F1AF0003F341B /* study.c in Sources */ = {isa = PBXBuildFile; fileRef = D33D5E290A7F1AF0003F341B /* study.c */; };
+		D34726930A7854F9004C3C80 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D34726910A7854F9004C3C80 /* libxml2.dylib */; };
+		D34726940A7854F9004C3C80 /* libxslt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D34726920A7854F9004C3C80 /* libxslt.dylib */; };
+		D347547B0A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = D347547A0A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.m */; };
+		D34754800A96D0D800D92AD6 /* JavaVirtualMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = D347547F0A96D0D800D92AD6 /* JavaVirtualMachine.m */; };
+		D347548F0A96D10800D92AD6 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D347548E0A96D10800D92AD6 /* utils.c */; };
+		D36AE08D0A7039FD009DB3DF /* openDoc.txt in Resources */ = {isa = PBXBuildFile; fileRef = D36AE08C0A7039FD009DB3DF /* openDoc.txt */; };
+		D390B7780A96D40300EE7D56 /* CausewayBridgeMain.java in Sources */ = {isa = PBXBuildFile; fileRef = D390B7770A96D40300EE7D56 /* CausewayBridgeMain.java */; };
+		D390B77C0A96D42300EE7D56 /* JavaPackage.jar in Copy Causeway Jar */ = {isa = PBXBuildFile; fileRef = D390B75F0A96D3C900EE7D56 /* JavaPackage.jar */; };
+		D390B7B20A96D50100EE7D56 /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D390B7B10A96D50100EE7D56 /* JavaVM.framework */; };
+		D390B8610A9788C500EE7D56 /* JavaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D390B85F0A9788C500EE7D56 /* JavaObject.m */; };
+		D396EA370A8864FE005AD142 /* appl.icns in Resources */ = {isa = PBXBuildFile; fileRef = D396EA360A8864FE005AD142 /* appl.icns */; };
+		D3C09E6C0B1937C90020577A /* XSLTServiceXalanJImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C09E6A0B1937C80020577A /* XSLTServiceXalanJImpl.m */; };
+		D3C09E780B1938970020577A /* XSLTServiceBaseJavaImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C09E760B1938970020577A /* XSLTServiceBaseJavaImpl.m */; };
+		D3C09ED40B193A9E0020577A /* XalanJAdapter.java in Sources */ = {isa = PBXBuildFile; fileRef = D3C09ED30B193A9E0020577A /* XalanJAdapter.java */; };
+		D3C09EDA0B193AF60020577A /* AdapterBase.java in Sources */ = {isa = PBXBuildFile; fileRef = D3C09ED90B193AF60020577A /* AdapterBase.java */; };
+		D3C09F340B19411B0020577A /* serializer.jar in Copy XalanJ Jars */ = {isa = PBXBuildFile; fileRef = D3C09F270B1940F60020577A /* serializer.jar */; };
+		D3C09F350B19411B0020577A /* xalan.jar in Copy XalanJ Jars */ = {isa = PBXBuildFile; fileRef = D3C09F280B1940F70020577A /* xalan.jar */; };
+		D3C0A0890B194C190020577A /* xt20051206.jar in Copy XT Jars */ = {isa = PBXBuildFile; fileRef = D3C0A05D0B194AF70020577A /* xt20051206.jar */; };
+		D3C0A08D0B194C2E0020577A /* XSLTServiceXTImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C0A08B0B194C2E0020577A /* XSLTServiceXTImpl.m */; };
+		D3C0A0920B194C440020577A /* XTAdapter.java in Sources */ = {isa = PBXBuildFile; fileRef = D3C0A0630B194B1F0020577A /* XTAdapter.java */; };
+		D3C41E6B0A97D566009F1127 /* Saxon6_5Adapter.java in Sources */ = {isa = PBXBuildFile; fileRef = D3C41E630A97D50A009F1127 /* Saxon6_5Adapter.java */; };
+		D3C41E9C0A97D5B3009F1127 /* XSLTServiceLibxsltImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C41E9A0A97D5B3009F1127 /* XSLTServiceLibxsltImpl.m */; };
+		D3C41EC70A97D9B7009F1127 /* saxon-jdom.jar in Copy Saxon 6.5 Jars */ = {isa = PBXBuildFile; fileRef = D3C41EB70A97D9A1009F1127 /* saxon-jdom.jar */; };
+		D3C41EC80A97D9B7009F1127 /* saxon-xml-apis.jar in Copy Saxon 6.5 Jars */ = {isa = PBXBuildFile; fileRef = D3C41EB80A97D9A1009F1127 /* saxon-xml-apis.jar */; };
+		D3C41EC90A97D9B7009F1127 /* saxon.jar in Copy Saxon 6.5 Jars */ = {isa = PBXBuildFile; fileRef = D3C41EB90A97D9A1009F1127 /* saxon.jar */; };
+		D3C41FDC0A97FB32009F1127 /* XSLTServiceBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C41FDA0A97FB32009F1127 /* XSLTServiceBaseImpl.m */; };
+		D3C4203E0A97FE57009F1127 /* EngineTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C4203D0A97FE57009F1127 /* EngineTypes.plist */; };
+		D3E657210A981A57007337F2 /* saxon8-dom.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657000A981947007337F2 /* saxon8-dom.jar */; };
+		D3E657220A981A57007337F2 /* saxon8-dom4j.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657010A981947007337F2 /* saxon8-dom4j.jar */; };
+		D3E657230A981A57007337F2 /* saxon8-jdom.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657020A981947007337F2 /* saxon8-jdom.jar */; };
+		D3E657240A981A57007337F2 /* saxon8-sql.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657030A981948007337F2 /* saxon8-sql.jar */; };
+		D3E657250A981A57007337F2 /* saxon8-xom.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657040A981948007337F2 /* saxon8-xom.jar */; };
+		D3E657260A981A57007337F2 /* saxon8-xpath.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657050A981948007337F2 /* saxon8-xpath.jar */; };
+		D3E657270A981A57007337F2 /* saxon8.jar in Copy Saxon 8.9 Jars */ = {isa = PBXBuildFile; fileRef = D3E657060A981948007337F2 /* saxon8.jar */; };
+		D3E657430A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E657410A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.m */; };
+		D3E657630A981BE3007337F2 /* Saxon8_7Adapter.java in Sources */ = {isa = PBXBuildFile; fileRef = D3E657620A981BE3007337F2 /* Saxon8_7Adapter.java */; };
+		D3E658F30A982DC2007337F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */; };
+		D3E659EA0A9830CC007337F2 /* console.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3E659E70A9830C5007337F2 /* console.txt */; };
+		D3E65E060A98E4F2007337F2 /* TraceListenerImpl.java in Sources */ = {isa = PBXBuildFile; fileRef = D3E65E050A98E4F2007337F2 /* TraceListenerImpl.java */; };
+		D3E662F00A99365B007337F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E662EF0A99365B007337F2 /* WebKit.framework */; };
+		D3E664F50A994DCB007337F2 /* libXPaletteJNILib.jnilib in Copy jnilib to exe dir */ = {isa = PBXBuildFile; fileRef = D3FC992D0A98118D0009889D /* libXPaletteJNILib.jnilib */; };
+		D3E6659E0A998913007337F2 /* XSLTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E6659C0A998913007337F2 /* XSLTContext.m */; };
+		D3E66D1F0A9D09E8007337F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E66D1D0A9D09E8007337F2 /* AppDelegate.m */; };
+		D3E66D870A9D126F007337F2 /* XSLTServiceNSXMLImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E66D850A9D126F007337F2 /* XSLTServiceNSXMLImpl.m */; };
+		D3EC97680B39FAC30093959C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3EC97670B39FAC30093959C /* Credits.rtf */; };
+		D3FC99430A9811FF0009889D /* XPaletteJNILib.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC99420A9811FF0009889D /* XPaletteJNILib.m */; };
+		D3FC99650A98130B0009889D /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D390B7B10A96D50100EE7D56 /* JavaVM.framework */; };
+		D3FC99980A98148D0009889D /* libXPaletteJNILib.jnilib in Copy jnilib java dir */ = {isa = PBXBuildFile; fileRef = D3FC992D0A98118D0009889D /* libXPaletteJNILib.jnilib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D390B7860A96D43000EE7D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D390B75E0A96D3C900EE7D56;
+			remoteInfo = JavaPackage;
+		};
+		D3FC997A0A98133A0009889D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D390B75E0A96D3C900EE7D56;
+			remoteInfo = JavaPackage;
+		};
+		D3FC99A50A98150D0009889D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FC992C0A98118D0009889D;
+			remoteInfo = XPaletteJNILib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D390B77A0A96D41D00EE7D56 /* Copy Saxon 6.5 Jars */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = saxon6_5;
+			dstSubfolderSpec = 15;
+			files = (
+				D3C41EC70A97D9B7009F1127 /* saxon-jdom.jar in Copy Saxon 6.5 Jars */,
+				D3C41EC80A97D9B7009F1127 /* saxon-xml-apis.jar in Copy Saxon 6.5 Jars */,
+				D3C41EC90A97D9B7009F1127 /* saxon.jar in Copy Saxon 6.5 Jars */,
+			);
+			name = "Copy Saxon 6.5 Jars";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C09F830B19414D0020577A /* Copy XalanJ Jars */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = xalanj;
+			dstSubfolderSpec = 15;
+			files = (
+				D3C09F340B19411B0020577A /* serializer.jar in Copy XalanJ Jars */,
+				D3C09F350B19411B0020577A /* xalan.jar in Copy XalanJ Jars */,
+			);
+			name = "Copy XalanJ Jars";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C0A0810B194BF70020577A /* Copy XT Jars */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = xt;
+			dstSubfolderSpec = 15;
+			files = (
+				D3C0A0890B194C190020577A /* xt20051206.jar in Copy XT Jars */,
+			);
+			name = "Copy XT Jars";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E656F00A9818F1007337F2 /* Copy Saxon 8.9 Jars */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = saxon8_7;
+			dstSubfolderSpec = 15;
+			files = (
+				D32D3A0F0CDCDFFA00378D15 /* jaxp-api.jar in Copy Saxon 8.9 Jars */,
+				D32D3A100CDCDFFA00378D15 /* xercesImpl.jar in Copy Saxon 8.9 Jars */,
+				D32D3A110CDCDFFA00378D15 /* xml-apis.jar in Copy Saxon 8.9 Jars */,
+				D3E657210A981A57007337F2 /* saxon8-dom.jar in Copy Saxon 8.9 Jars */,
+				D3E657220A981A57007337F2 /* saxon8-dom4j.jar in Copy Saxon 8.9 Jars */,
+				D3E657230A981A57007337F2 /* saxon8-jdom.jar in Copy Saxon 8.9 Jars */,
+				D3E657240A981A57007337F2 /* saxon8-sql.jar in Copy Saxon 8.9 Jars */,
+				D3E657250A981A57007337F2 /* saxon8-xom.jar in Copy Saxon 8.9 Jars */,
+				D3E657260A981A57007337F2 /* saxon8-xpath.jar in Copy Saxon 8.9 Jars */,
+				D3E657270A981A57007337F2 /* saxon8.jar in Copy Saxon 8.9 Jars */,
+			);
+			name = "Copy Saxon 8.9 Jars";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E657350A981A96007337F2 /* Copy Causeway Jar */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 15;
+			files = (
+				D390B77C0A96D42300EE7D56 /* JavaPackage.jar in Copy Causeway Jar */,
+			);
+			name = "Copy Causeway Jar";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E662550A9935B5007337F2 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E664F30A994DBB007337F2 /* Copy jnilib to exe dir */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				D3E664F50A994DCB007337F2 /* libXPaletteJNILib.jnilib in Copy jnilib to exe dir */,
+			);
+			name = "Copy jnilib to exe dir";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC99960A9814810009889D /* Copy jnilib java dir */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 15;
+			files = (
+				D3FC99980A98148D0009889D /* libXPaletteJNILib.jnilib in Copy jnilib java dir */,
+			);
+			name = "Copy jnilib java dir";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyDocument.mm; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* XSLHelper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLHelper_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* XSLPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSLPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30EFE101323E58E0005BE76 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		D30EFE131323E5970005BE76 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D33D59040A7DB893003F341B /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BorderView.h; sourceTree = "<group>"; };
+		D33D59050A7DB893003F341B /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BorderView.m; sourceTree = "<group>"; };
+		D33D598A0A7DBEE5003F341B /* PrettyPrinter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PrettyPrinter.h; sourceTree = "<group>"; };
+		D33D598B0A7DBEE5003F341B /* PrettyPrinter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PrettyPrinter.m; sourceTree = "<group>"; };
+		D33D59930A7DBF1E003F341B /* prettyxml.xsl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = prettyxml.xsl; sourceTree = "<group>"; };
+		D33D5AF10A7DCF10003F341B /* libexslt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexslt.dylib; path = /usr/lib/libexslt.dylib; sourceTree = "<absolute>"; };
+		D33D5E1E0A7F1AE3003F341B /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
+		D33D5E1F0A7F1AE3003F341B /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
+		D33D5E220A7F1AF0003F341B /* chartables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = chartables.c; sourceTree = "<group>"; };
+		D33D5E230A7F1AF0003F341B /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		D33D5E240A7F1AF0003F341B /* get.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = get.c; sourceTree = "<group>"; };
+		D33D5E250A7F1AF0003F341B /* internal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		D33D5E260A7F1AF0003F341B /* maketables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = maketables.c; sourceTree = "<group>"; };
+		D33D5E270A7F1AF0003F341B /* pcre.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pcre.c; sourceTree = "<group>"; };
+		D33D5E280A7F1AF0003F341B /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		D33D5E290A7F1AF0003F341B /* study.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = study.c; sourceTree = "<group>"; };
+		D34726910A7854F9004C3C80 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = "<absolute>"; };
+		D34726920A7854F9004C3C80 /* libxslt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxslt.dylib; path = /usr/lib/libxslt.dylib; sourceTree = "<absolute>"; };
+		D34754740A96D08800D92AD6 /* XSLTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTService.h; sourceTree = "<group>"; };
+		D34754790A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceSaxon6_5Impl.h; sourceTree = "<group>"; };
+		D347547A0A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceSaxon6_5Impl.m; sourceTree = "<group>"; };
+		D347547E0A96D0D800D92AD6 /* JavaVirtualMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaVirtualMachine.h; sourceTree = "<group>"; };
+		D347547F0A96D0D800D92AD6 /* JavaVirtualMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaVirtualMachine.m; sourceTree = "<group>"; };
+		D347548D0A96D10800D92AD6 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		D347548E0A96D10800D92AD6 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		D36AE08C0A7039FD009DB3DF /* openDoc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openDoc.txt; sourceTree = "<group>"; };
+		D36CD72D0CDA5F5D0096C0F0 /* jaxp-api.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "jaxp-api.jar"; sourceTree = "<group>"; };
+		D390B75F0A96D3C900EE7D56 /* JavaPackage.jar */ = {isa = PBXFileReference; explicitFileType = archive.jar; includeInIndex = 0; path = JavaPackage.jar; sourceTree = BUILT_PRODUCTS_DIR; };
+		D390B7770A96D40300EE7D56 /* CausewayBridgeMain.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = CausewayBridgeMain.java; sourceTree = "<group>"; };
+		D390B7B10A96D50100EE7D56 /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = /System/Library/Frameworks/JavaVM.framework; sourceTree = "<absolute>"; };
+		D390B85E0A9788C500EE7D56 /* JavaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaObject.h; sourceTree = "<group>"; };
+		D390B85F0A9788C500EE7D56 /* JavaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaObject.m; sourceTree = "<group>"; };
+		D396EA360A8864FE005AD142 /* appl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appl.icns; sourceTree = "<group>"; };
+		D3C09E690B1937C80020577A /* XSLTServiceXalanJImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceXalanJImpl.h; sourceTree = "<group>"; };
+		D3C09E6A0B1937C80020577A /* XSLTServiceXalanJImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceXalanJImpl.m; sourceTree = "<group>"; };
+		D3C09E750B1938970020577A /* XSLTServiceBaseJavaImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceBaseJavaImpl.h; sourceTree = "<group>"; };
+		D3C09E760B1938970020577A /* XSLTServiceBaseJavaImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceBaseJavaImpl.m; sourceTree = "<group>"; };
+		D3C09ED30B193A9E0020577A /* XalanJAdapter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = XalanJAdapter.java; sourceTree = "<group>"; };
+		D3C09ED90B193AF60020577A /* AdapterBase.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AdapterBase.java; sourceTree = "<group>"; };
+		D3C09F270B1940F60020577A /* serializer.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = serializer.jar; sourceTree = "<group>"; };
+		D3C09F280B1940F70020577A /* xalan.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = xalan.jar; sourceTree = "<group>"; };
+		D3C09F290B1940F80020577A /* xercesImpl.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = xercesImpl.jar; sourceTree = "<group>"; };
+		D3C09F2A0B1940F90020577A /* xml-apis.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "xml-apis.jar"; sourceTree = "<group>"; };
+		D3C0A05D0B194AF70020577A /* xt20051206.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = xt20051206.jar; sourceTree = "<group>"; };
+		D3C0A0630B194B1F0020577A /* XTAdapter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = XTAdapter.java; sourceTree = "<group>"; };
+		D3C0A08A0B194C2E0020577A /* XSLTServiceXTImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceXTImpl.h; sourceTree = "<group>"; };
+		D3C0A08B0B194C2E0020577A /* XSLTServiceXTImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceXTImpl.m; sourceTree = "<group>"; };
+		D3C41E630A97D50A009F1127 /* Saxon6_5Adapter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Saxon6_5Adapter.java; sourceTree = "<group>"; };
+		D3C41E990A97D5B3009F1127 /* XSLTServiceLibxsltImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceLibxsltImpl.h; sourceTree = "<group>"; };
+		D3C41E9A0A97D5B3009F1127 /* XSLTServiceLibxsltImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceLibxsltImpl.m; sourceTree = "<group>"; };
+		D3C41EB70A97D9A1009F1127 /* saxon-jdom.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon-jdom.jar"; sourceTree = "<group>"; };
+		D3C41EB80A97D9A1009F1127 /* saxon-xml-apis.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon-xml-apis.jar"; sourceTree = "<group>"; };
+		D3C41EB90A97D9A1009F1127 /* saxon.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = saxon.jar; sourceTree = "<group>"; };
+		D3C41FD90A97FB32009F1127 /* XSLTServiceBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceBaseImpl.h; sourceTree = "<group>"; };
+		D3C41FDA0A97FB32009F1127 /* XSLTServiceBaseImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceBaseImpl.m; sourceTree = "<group>"; };
+		D3C4203D0A97FE57009F1127 /* EngineTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EngineTypes.plist; sourceTree = "<group>"; };
+		D3E657000A981947007337F2 /* saxon8-dom.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-dom.jar"; sourceTree = "<group>"; };
+		D3E657010A981947007337F2 /* saxon8-dom4j.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-dom4j.jar"; sourceTree = "<group>"; };
+		D3E657020A981947007337F2 /* saxon8-jdom.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-jdom.jar"; sourceTree = "<group>"; };
+		D3E657030A981948007337F2 /* saxon8-sql.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-sql.jar"; sourceTree = "<group>"; };
+		D3E657040A981948007337F2 /* saxon8-xom.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-xom.jar"; sourceTree = "<group>"; };
+		D3E657050A981948007337F2 /* saxon8-xpath.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "saxon8-xpath.jar"; sourceTree = "<group>"; };
+		D3E657060A981948007337F2 /* saxon8.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = saxon8.jar; sourceTree = "<group>"; };
+		D3E657400A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceSaxon8_7Impl.h; sourceTree = "<group>"; };
+		D3E657410A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceSaxon8_7Impl.m; sourceTree = "<group>"; };
+		D3E657620A981BE3007337F2 /* Saxon8_7Adapter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Saxon8_7Adapter.java; sourceTree = "<group>"; };
+		D3E659E70A9830C5007337F2 /* console.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = console.txt; sourceTree = "<group>"; };
+		D3E65E050A98E4F2007337F2 /* TraceListenerImpl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TraceListenerImpl.java; sourceTree = "<group>"; };
+		D3E662EF0A99365B007337F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		D3E6659B0A998913007337F2 /* XSLTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTContext.h; sourceTree = "<group>"; };
+		D3E6659C0A998913007337F2 /* XSLTContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTContext.m; sourceTree = "<group>"; };
+		D3E66D1C0A9D09E8007337F2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3E66D1D0A9D09E8007337F2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3E66D840A9D126F007337F2 /* XSLTServiceNSXMLImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTServiceNSXMLImpl.h; sourceTree = "<group>"; };
+		D3E66D850A9D126F007337F2 /* XSLTServiceNSXMLImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSLTServiceNSXMLImpl.m; sourceTree = "<group>"; };
+		D3EC97670B39FAC30093959C /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		D3FC992D0A98118D0009889D /* libXPaletteJNILib.jnilib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libXPaletteJNILib.jnilib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC99420A9811FF0009889D /* XPaletteJNILib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPaletteJNILib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				D34726930A7854F9004C3C80 /* libxml2.dylib in Frameworks */,
+				D34726940A7854F9004C3C80 /* libxslt.dylib in Frameworks */,
+				D33D5AF20A7DCF10003F341B /* libexslt.dylib in Frameworks */,
+				D390B7B20A96D50100EE7D56 /* JavaVM.framework in Frameworks */,
+				D3E662F00A99365B007337F2 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390B75D0A96D3C900EE7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC992B0A98118D0009889D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E658F30A982DC2007337F2 /* Foundation.framework in Frameworks */,
+				D3FC99650A98130B0009889D /* JavaVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E662EF0A99365B007337F2 /* WebKit.framework */,
+				D390B7B10A96D50100EE7D56 /* JavaVM.framework */,
+				D33D5AF10A7DCF10003F341B /* libexslt.dylib */,
+				D34726910A7854F9004C3C80 /* libxml2.dylib */,
+				D34726920A7854F9004C3C80 /* libxslt.dylib */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* XSLPalette.app */,
+				D390B75F0A96D3C900EE7D56 /* JavaPackage.jar */,
+				D3FC992D0A98118D0009889D /* libXPaletteJNILib.jnilib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* XSLHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D33D5E210A7F1AF0003F341B /* pcre-4.3 */,
+				D347548C0A96D0E000D92AD6 /* CausewayBridge */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = XSLHelper;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D33D5E1E0A7F1AE3003F341B /* AGRegex.h */,
+				D33D5E1F0A7F1AE3003F341B /* AGRegex.m */,
+				D33D598A0A7DBEE5003F341B /* PrettyPrinter.h */,
+				D33D598B0A7DBEE5003F341B /* PrettyPrinter.m */,
+				D33D59040A7DB893003F341B /* BorderView.h */,
+				D33D59050A7DB893003F341B /* BorderView.m */,
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.mm */,
+				D34754740A96D08800D92AD6 /* XSLTService.h */,
+				D3C41FD90A97FB32009F1127 /* XSLTServiceBaseImpl.h */,
+				D3C41FDA0A97FB32009F1127 /* XSLTServiceBaseImpl.m */,
+				D3C41E990A97D5B3009F1127 /* XSLTServiceLibxsltImpl.h */,
+				D3C41E9A0A97D5B3009F1127 /* XSLTServiceLibxsltImpl.m */,
+				D3E66D840A9D126F007337F2 /* XSLTServiceNSXMLImpl.h */,
+				D3E66D850A9D126F007337F2 /* XSLTServiceNSXMLImpl.m */,
+				D3C09E750B1938970020577A /* XSLTServiceBaseJavaImpl.h */,
+				D3C09E760B1938970020577A /* XSLTServiceBaseJavaImpl.m */,
+				D34754790A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.h */,
+				D347547A0A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.m */,
+				D3E657400A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.h */,
+				D3E657410A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.m */,
+				D3C09E690B1937C80020577A /* XSLTServiceXalanJImpl.h */,
+				D3C09E6A0B1937C80020577A /* XSLTServiceXalanJImpl.m */,
+				D3C0A08A0B194C2E0020577A /* XSLTServiceXTImpl.h */,
+				D3C0A08B0B194C2E0020577A /* XSLTServiceXTImpl.m */,
+				D3E6659B0A998913007337F2 /* XSLTContext.h */,
+				D3E6659C0A998913007337F2 /* XSLTContext.m */,
+				D3E66D1C0A9D09E8007337F2 /* AppDelegate.h */,
+				D3E66D1D0A9D09E8007337F2 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC99420A9811FF0009889D /* XPaletteJNILib.m */,
+				32DBCF750370BD2300C91783 /* XSLHelper_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3E659E70A9830C5007337F2 /* console.txt */,
+				D3C4202F0A97FCFF009F1127 /* Jars */,
+				D396EA360A8864FE005AD142 /* appl.icns */,
+				D33D59930A7DBF1E003F341B /* prettyxml.xsl */,
+				D3EC97670B39FAC30093959C /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				D36AE08C0A7039FD009DB3DF /* openDoc.txt */,
+				D3C4203D0A97FE57009F1127 /* EngineTypes.plist */,
+				D30EFE0F1323E58E0005BE76 /* MyDocument.xib */,
+				D30EFE121323E5970005BE76 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33D5E210A7F1AF0003F341B /* pcre-4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				D33D5E220A7F1AF0003F341B /* chartables.c */,
+				D33D5E230A7F1AF0003F341B /* config.h */,
+				D33D5E240A7F1AF0003F341B /* get.c */,
+				D33D5E250A7F1AF0003F341B /* internal.h */,
+				D33D5E260A7F1AF0003F341B /* maketables.c */,
+				D33D5E270A7F1AF0003F341B /* pcre.c */,
+				D33D5E280A7F1AF0003F341B /* pcre.h */,
+				D33D5E290A7F1AF0003F341B /* study.c */,
+			);
+			path = "pcre-4.3";
+			sourceTree = "<group>";
+		};
+		D347548C0A96D0E000D92AD6 /* CausewayBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D390B8570A97885C00EE7D56 /* Java */,
+				D347548D0A96D10800D92AD6 /* utils.h */,
+				D347548E0A96D10800D92AD6 /* utils.c */,
+				D347547E0A96D0D800D92AD6 /* JavaVirtualMachine.h */,
+				D347547F0A96D0D800D92AD6 /* JavaVirtualMachine.m */,
+				D390B85E0A9788C500EE7D56 /* JavaObject.h */,
+				D390B85F0A9788C500EE7D56 /* JavaObject.m */,
+			);
+			name = CausewayBridge;
+			sourceTree = "<group>";
+		};
+		D390B8570A97885C00EE7D56 /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				D390B7770A96D40300EE7D56 /* CausewayBridgeMain.java */,
+				D3C09ED90B193AF60020577A /* AdapterBase.java */,
+				D3C41E630A97D50A009F1127 /* Saxon6_5Adapter.java */,
+				D3E657620A981BE3007337F2 /* Saxon8_7Adapter.java */,
+				D3C09ED30B193A9E0020577A /* XalanJAdapter.java */,
+				D3E65E050A98E4F2007337F2 /* TraceListenerImpl.java */,
+				D3C0A0630B194B1F0020577A /* XTAdapter.java */,
+			);
+			name = Java;
+			sourceTree = "<group>";
+		};
+		D3C09F2F0B1940FD0020577A /* XalanJ */ = {
+			isa = PBXGroup;
+			children = (
+				D36CD72D0CDA5F5D0096C0F0 /* jaxp-api.jar */,
+				D3C09F270B1940F60020577A /* serializer.jar */,
+				D3C09F280B1940F70020577A /* xalan.jar */,
+				D3C09F290B1940F80020577A /* xercesImpl.jar */,
+				D3C09F2A0B1940F90020577A /* xml-apis.jar */,
+			);
+			name = XalanJ;
+			sourceTree = "<group>";
+		};
+		D3C0A0570B194AD70020577A /* XT */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0A05D0B194AF70020577A /* xt20051206.jar */,
+			);
+			name = XT;
+			sourceTree = "<group>";
+		};
+		D3C4202F0A97FCFF009F1127 /* Jars */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0A0570B194AD70020577A /* XT */,
+				D3C09F2F0B1940FD0020577A /* XalanJ */,
+				D3E656FF0A98192D007337F2 /* Saxon 8.7 */,
+				D3C420300A97FD04009F1127 /* Saxon 6.5 */,
+			);
+			name = Jars;
+			sourceTree = "<group>";
+		};
+		D3C420300A97FD04009F1127 /* Saxon 6.5 */ = {
+			isa = PBXGroup;
+			children = (
+				D3C41EB70A97D9A1009F1127 /* saxon-jdom.jar */,
+				D3C41EB80A97D9A1009F1127 /* saxon-xml-apis.jar */,
+				D3C41EB90A97D9A1009F1127 /* saxon.jar */,
+			);
+			name = "Saxon 6.5";
+			sourceTree = "<group>";
+		};
+		D3E656FF0A98192D007337F2 /* Saxon 8.7 */ = {
+			isa = PBXGroup;
+			children = (
+				D3E657000A981947007337F2 /* saxon8-dom.jar */,
+				D3E657010A981947007337F2 /* saxon8-dom4j.jar */,
+				D3E657020A981947007337F2 /* saxon8-jdom.jar */,
+				D3E657030A981948007337F2 /* saxon8-sql.jar */,
+				D3E657040A981948007337F2 /* saxon8-xom.jar */,
+				D3E657050A981948007337F2 /* saxon8-xpath.jar */,
+				D3E657060A981948007337F2 /* saxon8.jar */,
+			);
+			name = "Saxon 8.7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3FC99290A98118D0009889D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		D390B75C0A96D3C900EE7D56 /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXLibraryTarget section */
+		D390B75E0A96D3C900EE7D56 /* JavaPackage */ = {
+			isa = PBXLibraryTarget;
+			buildConfigurationList = D390B7640A96D3DB00EE7D56 /* Build configuration list for PBXLibraryTarget "JavaPackage" */;
+			buildPhases = (
+				D390B75B0A96D3C900EE7D56 /* Sources */,
+				D390B75C0A96D3C900EE7D56 /* JavaArchive */,
+				D390B75D0A96D3C900EE7D56 /* Frameworks */,
+				D3C421C10A980ECB009F1127 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JavaPackage;
+			productInstallPath = /usr/local/lib;
+			productName = JavaPackage;
+			productReference = D390B75F0A96D3C900EE7D56 /* JavaPackage.jar */;
+		};
+/* End PBXLibraryTarget section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* XSLPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "XSLPalette" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				D3E657350A981A96007337F2 /* Copy Causeway Jar */,
+				D390B77A0A96D41D00EE7D56 /* Copy Saxon 6.5 Jars */,
+				D3E656F00A9818F1007337F2 /* Copy Saxon 8.9 Jars */,
+				D3C09F830B19414D0020577A /* Copy XalanJ Jars */,
+				D3C0A0810B194BF70020577A /* Copy XT Jars */,
+				D3E664F30A994DBB007337F2 /* Copy jnilib to exe dir */,
+				D3FC99960A9814810009889D /* Copy jnilib java dir */,
+				D3E662550A9935B5007337F2 /* Copy Frameworks */,
+				D36CD6E40CDA577E0096C0F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D390B7870A96D43000EE7D56 /* PBXTargetDependency */,
+				D3FC99A60A98150D0009889D /* PBXTargetDependency */,
+			);
+			name = XSLPalette;
+			productInstallPath = "$(HOME)/Applications";
+			productName = XSLHelper;
+			productReference = 8D15AC370486D014006FF6A4 /* XSLPalette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FC992C0A98118D0009889D /* XPaletteJNILib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC99310A98119B0009889D /* Build configuration list for PBXNativeTarget "XPaletteJNILib" */;
+			buildPhases = (
+				D3FC99290A98118D0009889D /* Headers */,
+				D3FC992A0A98118D0009889D /* Sources */,
+				D3FC992B0A98118D0009889D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FC997B0A98133A0009889D /* PBXTargetDependency */,
+			);
+			name = XPaletteJNILib;
+			productName = XPaletteJNILib;
+			productReference = D3FC992D0A98118D0009889D /* libXPaletteJNILib.jnilib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "XSLPalette.old" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* XSLHelper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* XSLPalette */,
+				D390B75E0A96D3C900EE7D56 /* JavaPackage */,
+				D3FC992C0A98118D0009889D /* XPaletteJNILib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E659EA0A9830CC007337F2 /* console.txt in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				D36AE08D0A7039FD009DB3DF /* openDoc.txt in Resources */,
+				D33D59940A7DBF1E003F341B /* prettyxml.xsl in Resources */,
+				D396EA370A8864FE005AD142 /* appl.icns in Resources */,
+				D3C4203E0A97FE57009F1127 /* EngineTypes.plist in Resources */,
+				D3EC97680B39FAC30093959C /* Credits.rtf in Resources */,
+				D30EFE111323E58E0005BE76 /* MyDocument.xib in Resources */,
+				D30EFE141323E5970005BE76 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D36CD6E40CDA577E0096C0F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "killall XSLPalette\nopen /Applications/Utilities/Console.app\nopen \"$HOME/Desktop/test.xslpalette\"";
+		};
+		D3C421C10A980ECB009F1127 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "javah -classpath \"${BUILT_PRODUCTS_DIR}/JavaPackage.jar\" -force -o \"${BUILT_PRODUCTS_DIR}/TraceListenerImpl.h\" \"TraceListenerImpl\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.mm in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				D33D59060A7DB893003F341B /* BorderView.m in Sources */,
+				D33D598C0A7DBEE5003F341B /* PrettyPrinter.m in Sources */,
+				D33D5E200A7F1AE3003F341B /* AGRegex.m in Sources */,
+				D33D5E2A0A7F1AF0003F341B /* chartables.c in Sources */,
+				D33D5E2B0A7F1AF0003F341B /* get.c in Sources */,
+				D33D5E2C0A7F1AF0003F341B /* maketables.c in Sources */,
+				D33D5E2D0A7F1AF0003F341B /* pcre.c in Sources */,
+				D33D5E2E0A7F1AF0003F341B /* study.c in Sources */,
+				D347547B0A96D0AA00D92AD6 /* XSLTServiceSaxon6_5Impl.m in Sources */,
+				D34754800A96D0D800D92AD6 /* JavaVirtualMachine.m in Sources */,
+				D347548F0A96D10800D92AD6 /* utils.c in Sources */,
+				D390B8610A9788C500EE7D56 /* JavaObject.m in Sources */,
+				D3C41E9C0A97D5B3009F1127 /* XSLTServiceLibxsltImpl.m in Sources */,
+				D3C41FDC0A97FB32009F1127 /* XSLTServiceBaseImpl.m in Sources */,
+				D3E657430A981AEF007337F2 /* XSLTServiceSaxon8_7Impl.m in Sources */,
+				D3E6659E0A998913007337F2 /* XSLTContext.m in Sources */,
+				D3E66D1F0A9D09E8007337F2 /* AppDelegate.m in Sources */,
+				D3E66D870A9D126F007337F2 /* XSLTServiceNSXMLImpl.m in Sources */,
+				D3C09E6C0B1937C90020577A /* XSLTServiceXalanJImpl.m in Sources */,
+				D3C09E780B1938970020577A /* XSLTServiceBaseJavaImpl.m in Sources */,
+				D3C0A08D0B194C2E0020577A /* XSLTServiceXTImpl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390B75B0A96D3C900EE7D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D390B7780A96D40300EE7D56 /* CausewayBridgeMain.java in Sources */,
+				D3C41E6B0A97D566009F1127 /* Saxon6_5Adapter.java in Sources */,
+				D3E657630A981BE3007337F2 /* Saxon8_7Adapter.java in Sources */,
+				D3E65E060A98E4F2007337F2 /* TraceListenerImpl.java in Sources */,
+				D3C09ED40B193A9E0020577A /* XalanJAdapter.java in Sources */,
+				D3C09EDA0B193AF60020577A /* AdapterBase.java in Sources */,
+				D3C0A0920B194C440020577A /* XTAdapter.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC992A0A98118D0009889D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC99430A9811FF0009889D /* XPaletteJNILib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D390B7870A96D43000EE7D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D390B75E0A96D3C900EE7D56 /* JavaPackage */;
+			targetProxy = D390B7860A96D43000EE7D56 /* PBXContainerItemProxy */;
+		};
+		D3FC997B0A98133A0009889D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D390B75E0A96D3C900EE7D56 /* JavaPackage */;
+			targetProxy = D3FC997A0A98133A0009889D /* PBXContainerItemProxy */;
+		};
+		D3FC99A60A98150D0009889D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FC992C0A98118D0009889D /* XPaletteJNILib */;
+			targetProxy = D3FC99A50A98150D0009889D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D30EFE0F1323E58E0005BE76 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30EFE101323E58E0005BE76 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		D30EFE121323E5970005BE76 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30EFE131323E5970005BE76 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../xmlnanny/trunk/frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(LIBXML_PREFIX)",
+					"$(LIBXSLT_PREFIX)",
+					"$(LIBEXSLT_PREFIX)",
+					"$(XERCESC_PREFIX)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../Documents/xml-xalan/c/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../Documents/xerces-c-src_2_7_0/lib\"";
+				PRODUCT_NAME = XSLPalette;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../xmlnanny/trunk/frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(LIBXML_PREFIX)",
+					"$(LIBXSLT_PREFIX)",
+					"$(LIBEXSLT_PREFIX)",
+					"$(XERCESC_PREFIX)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../Documents/xml-xalan/c/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../Documents/xerces-c-src_2_7_0/lib\"";
+				PRODUCT_NAME = XSLPalette;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Todd Ditchendorf";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		D390B7650A96D3DB00EE7D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_CLASS_SEARCH_PATHS = "";
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JavaPackage;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		D390B7660A96D3DB00EE7D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_CLASS_SEARCH_PATHS = "/Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon-jdom.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon-xml-apis.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-dom.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-dom4j.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-jdom.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-sql.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-xom.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8-xpath.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/saxon8.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/serializer.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/xalan.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/xercesImpl.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/xml-apis.jar /Users/itod/dev/cocoa/TeXSLMatePlugIn/res/jars/xt20051206.jar";
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JavaPackage;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D3FC99320A98119B0009889D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = XPaletteJNILib;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D3FC99330A98119B0009889D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = jnilib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = XPaletteJNILib;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "XSLPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "XSLPalette.old" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D390B7640A96D3DB00EE7D56 /* Build configuration list for PBXLibraryTarget "JavaPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390B7650A96D3DB00EE7D56 /* Debug */,
+				D390B7660A96D3DB00EE7D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC99310A98119B0009889D /* Build configuration list for PBXNativeTarget "XPaletteJNILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC99320A98119B0009889D /* Debug */,
+				D3FC99330A98119B0009889D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
